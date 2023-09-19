@@ -7,4 +7,10 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     const passwordField = document.getElementById('user-password')
     const password = passwordField.value
     console.log(password)
+    if (email === 'sudeptaghosh09@gmail.com' && password === '123456') {
+        window.location.href = 'bank.html'
+    }
+    else {
+        alert('invaild user')
+    }
 })
